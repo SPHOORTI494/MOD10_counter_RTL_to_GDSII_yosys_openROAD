@@ -1,4 +1,4 @@
-# MOD10_counter_RTL_to_GDSII_yosys_openROAD
+
 # Mod-10 Counter RTL-to-GDSII Physical Design
 
 A 4-bit Mod-10 counter implemented using Verilog and taken through synthesis, static timing analysis (STA), floorplanning, power distribution network (PDN) generation, placement, clock tree synthesis (CTS), routing, and physical verification using open-source EDA tools.
