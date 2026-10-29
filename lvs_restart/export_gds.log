@@ -1,0 +1,17 @@
+OpenROAD unknown 
+Features included (+) or not (-): -GPU +GUI -Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+
+===== READ DETAILED-ROUTE DATABASE =====
+invalid command name "write_gds"
+    while executing
+"::unknown {*}$args"
+    (procedure "sta_unknown" line 27)
+    invoked from within
+"sta_unknown write_gds /work/physical/lvs_restart/openroad_export.gds"
+    invoked from within
+"write_gds /work/physical/lvs_restart/openroad_export.gds"
+    (file "/work/physical/lvs_restart/export_gds.tcl" line 5)
+
+===== EXPORT INTERMEDIATE GDS =====

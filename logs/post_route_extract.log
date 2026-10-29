@@ -1,0 +1,28 @@
+OpenROAD unknown 
+Features included (+) or not (-): -GPU +GUI -Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+
+===== LOAD TIMING LIBRARY =====
+
+===== LOAD DETAILED-ROUTE DATABASE =====
+
+===== LOAD SDC =====
+
+===== SET EXTRACTION RULES =====
+
+===== EXTRACT ROUTED PARASITICS =====
+[INFO RCX-0435] Reading extraction model file /sky130hd/rcx_patterns.rules ...
+[INFO RCX-0434] Defined process_corner MinMax0 with ext_model_index 0 (using extRulesFile defaults)
+[INFO RCX-0436] RC segment generation mod10_counter (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 77 rc segments
+[INFO RCX-0439] Coupling Cap extraction mod10_counter ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 66% of 163 wires extracted
+[INFO RCX-0442] 100% of 163 wires extracted
+[INFO RCX-0045] Extract 22 nets, 99 rsegs, 99 caps, 103 ccs
+
+===== WRITE SPEF =====
+[INFO RCX-0443] 22 nets finished
+
+===== EXTRACTION COMPLETED =====

@@ -1,0 +1,63 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN mod10_counter ;
+UNITS DISTANCE MICRONS 1000 ;
+DIEAREA ( 0 0 ) ( 24000 24000 ) ;
+ROW ROW_0 unithd 2300 2720 N DO 42 BY 1 STEP 460 0 ;
+ROW ROW_1 unithd 2300 5440 FS DO 42 BY 1 STEP 460 0 ;
+ROW ROW_2 unithd 2300 8160 N DO 42 BY 1 STEP 460 0 ;
+ROW ROW_3 unithd 2300 10880 FS DO 42 BY 1 STEP 460 0 ;
+ROW ROW_4 unithd 2300 13600 N DO 42 BY 1 STEP 460 0 ;
+ROW ROW_5 unithd 2300 16320 FS DO 42 BY 1 STEP 460 0 ;
+ROW ROW_6 unithd 2300 19040 N DO 42 BY 1 STEP 460 0 ;
+COMPONENTS 17 ;
+    - _10_ sky130_fd_sc_hd__clkinv_1 ;
+    - _11_ sky130_fd_sc_hd__clkinv_1 ;
+    - _12_ sky130_fd_sc_hd__nand2_1 ;
+    - _13_ sky130_fd_sc_hd__and4_1 ;
+    - _14_ sky130_fd_sc_hd__nor4bb_1 ;
+    - _15_ sky130_fd_sc_hd__a31oi_1 ;
+    - _16_ sky130_fd_sc_hd__nor3_1 ;
+    - _17_ sky130_fd_sc_hd__xnor2_1 ;
+    - _18_ sky130_fd_sc_hd__xnor2_1 ;
+    - _19_ sky130_fd_sc_hd__nor2_1 ;
+    - _20_ sky130_fd_sc_hd__clkinv_1 ;
+    - _21_ sky130_fd_sc_hd__clkinv_1 ;
+    - _22_ sky130_fd_sc_hd__clkinv_1 ;
+    - _23_ sky130_fd_sc_hd__dfrtp_1 ;
+    - _24_ sky130_fd_sc_hd__dfrtp_1 ;
+    - _25_ sky130_fd_sc_hd__dfrtp_1 ;
+    - _26_ sky130_fd_sc_hd__dfrtp_1 ;
+END COMPONENTS
+PINS 6 ;
+    - clk + NET clk + DIRECTION INPUT + USE SIGNAL ;
+    - count[0] + NET count[0] + DIRECTION OUTPUT + USE SIGNAL ;
+    - count[1] + NET count[1] + DIRECTION OUTPUT + USE SIGNAL ;
+    - count[2] + NET count[2] + DIRECTION OUTPUT + USE SIGNAL ;
+    - count[3] + NET count[3] + DIRECTION OUTPUT + USE SIGNAL ;
+    - rst + NET rst + DIRECTION INPUT + USE SIGNAL ;
+END PINS
+NETS 19 ;
+    - _00_[0] ( _23_ D ) ( _11_ Y ) + USE SIGNAL ;
+    - _00_[1] ( _24_ D ) ( _19_ Y ) + USE SIGNAL ;
+    - _00_[2] ( _25_ D ) ( _17_ Y ) + USE SIGNAL ;
+    - _00_[3] ( _26_ D ) ( _16_ Y ) + USE SIGNAL ;
+    - _01_ ( _24_ RESET_B ) ( _10_ Y ) + USE SIGNAL ;
+    - _02_ ( _23_ RESET_B ) ( _20_ Y ) + USE SIGNAL ;
+    - _03_ ( _25_ RESET_B ) ( _21_ Y ) + USE SIGNAL ;
+    - _04_ ( _26_ RESET_B ) ( _22_ Y ) + USE SIGNAL ;
+    - _05_ ( _17_ B ) ( _12_ Y ) + USE SIGNAL ;
+    - _06_ ( _16_ A ) ( _13_ X ) + USE SIGNAL ;
+    - _07_ ( _19_ A ) ( _16_ B ) ( _14_ Y ) + USE SIGNAL ;
+    - _08_ ( _16_ C ) ( _15_ Y ) + USE SIGNAL ;
+    - _09_ ( _19_ B ) ( _18_ Y ) + USE SIGNAL ;
+    - clk ( PIN clk ) ( _26_ CLK ) ( _25_ CLK ) ( _24_ CLK ) ( _23_ CLK ) + USE SIGNAL ;
+    - count[0] ( PIN count[0] ) ( _23_ Q ) ( _18_ B ) ( _15_ A3 ) ( _14_ D_N ) ( _13_ D ) ( _12_ B )
+      ( _11_ A ) + USE SIGNAL ;
+    - count[1] ( PIN count[1] ) ( _24_ Q ) ( _18_ A ) ( _15_ A2 ) ( _14_ B ) ( _13_ B ) ( _12_ A ) + USE SIGNAL ;
+    - count[2] ( PIN count[2] ) ( _25_ Q ) ( _17_ A ) ( _15_ A1 ) ( _14_ A ) ( _13_ A ) + USE SIGNAL ;
+    - count[3] ( PIN count[3] ) ( _26_ Q ) ( _15_ B1 ) ( _14_ C_N ) ( _13_ C ) + USE SIGNAL ;
+    - rst ( PIN rst ) ( _22_ A ) ( _21_ A ) ( _20_ A ) ( _10_ A ) + USE SIGNAL ;
+END NETS
+END DESIGN

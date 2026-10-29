@@ -1,0 +1,13 @@
+OpenROAD unknown 
+Features included (+) or not (-): -GPU +GUI -Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0227] LEF file: /sky130hd/lef/sky130_fd_sc_hd.tlef, created 13 layers, 25 vias
+[INFO ODB-0227] LEF file: /sky130hd/lef/sky130_fd_sc_hd_merged.lef, created 441 library cells
+
+===== CHECK NETS =====
+VDD net: VDD
+VSS net: VSS
+
+===== CHECK VOLTAGE COMMAND =====
+set_pdnsim_net_voltage -net net_name -voltage volt [-corner corner] 

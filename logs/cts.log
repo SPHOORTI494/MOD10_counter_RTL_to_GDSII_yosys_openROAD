@@ -1,0 +1,98 @@
+OpenROAD unknown 
+Features included (+) or not (-): -GPU +GUI -Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+
+===== STAGE 1: LOAD TIMING LIBRARY =====
+
+===== STAGE 2: LOAD DETAILED PLACEMENT DATABASE =====
+
+===== STAGE 3: LOAD TIMING CONSTRAINTS =====
+
+===== STAGE 4: LOAD SKY130HD RC SETTINGS =====
+
+===== CLOCKS BEFORE CTS =====
+Clock                   Period          Waveform
+----------------------------------------------------
+core_clock               10.00        0.00      5.00
+
+===== STAGE 5: REPAIR CLOCK INVERTERS =====
+
+===== STAGE 6: CLOCK TREE SYNTHESIS =====
+[INFO CTS-0050] Root buffer is sky130_fd_sc_hd__clkbuf_1.
+[INFO CTS-0051] Sink buffer is sky130_fd_sc_hd__clkbuf_1.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    sky130_fd_sc_hd__clkbuf_1
+[INFO CTS-0049] Characterization buffer is sky130_fd_sc_hd__clkbuf_1.
+[INFO CTS-0007] Net "clk" found for clock "core_clock".
+[INFO CTS-0010]  Clock net "clk" has 4 sinks.
+[INFO CTS-0008] TritonCTS found 1 clock nets.
+[INFO CTS-0097] Characterization used 1 buffer(s) types.
+[INFO CTS-0201] 0 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net clk.
+[INFO CTS-0028]  Total number of sinks: 4.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 13600  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(2565, 12300), (7165, 31220)].
+[INFO CTS-0024]  Normalized sink region: [(0.188603, 0.904412), (0.526838, 2.29559)].
+[INFO CTS-0025]     Width:  0.3382.
+[INFO CTS-0026]     Height: 1.3912.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 2
+    Sub-region size: 0.3382 X 0.6956
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0038]  Stop criterion found. Sink region hpwl is smaller than max wirelength (1911.535 um) and max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 4.
+[INFO CTS-0018]     Created 3 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 3 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 2:2..
+[INFO CTS-0017]     Max level of the clock tree: 1.
+[INFO CTS-0098] Clock net "clk"
+[INFO CTS-0099]  Sinks 4
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 32.52 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Dummy loads inserted 0
+[INFO CTS-0500] Runtime: 0.34s
+
+===== STAGE 7: LEGALIZE CTS INSERTIONS =====
+[INFO DPL-0006] Core area: 1506.44 um^2
+[INFO DPL-0007] Movable instances area: 185.18 um^2
+[INFO DPL-0008] Fixed instances area within core: 20.02 um^2
+[INFO DPL-0009] Utilization: 13.6%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1102] Legalizing using negotiation legalizer.
+[INFO DPL-1103] Negotiation base search window: +/-20 sites horizontally, +/-5 rows vertically 
+	Automatic search window extension enabled.
+	Search window extendable up to the max displacement cap of +/-500 sites, +/-100 rows near walls.
+[INFO DPL-1104] NegotiationLegalizer DRC penalty: 5.
+[INFO DPL-0392] Negotiation cell height distribution (1 unique row-count(s)):
+[INFO DPL-0393]   height 1 row(s): 36 cells
+          |      Total |  Illegal |  Illegal
+Iteration | Violations |    Cells |    Sites
+---------------------------------------------
+        0 |          0 |         0 |         0
+Negotiation phase 1 converged at iteration 0.
+[INFO DPL-0500] Runtime: 0.00s
+Detailed Placement Analysis
+---------------------------------
+legalizer            negotiation
+total moves                  20
+total displacement          6.6 u
+average displacement        0.2 u
+max displacement            2.9 u
+original HPWL             229.3 u
+legalized HPWL            230.4 u
+delta HPWL                    0 %
+
+
+===== STAGE 8: ESTIMATE PLACEMENT PARASITICS =====
+
+===== STAGE 9: REPORT CTS =====
+
+===== STAGE 10: SAVE CTS RESULTS =====
+
+===== CTS STAGE COMPLETED =====

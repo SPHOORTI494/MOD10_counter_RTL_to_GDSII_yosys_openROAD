@@ -1,0 +1,15 @@
+read_verilog rtl/mod10_counter.v
+hierarchy -check -top mod10_counter
+
+synth -top mod10_counter -noabc
+
+dfflibmap -liberty /sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty /sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -lib /sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+clean
+check
+stat -liberty /sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+write_verilog -noattr output/mod10_counter_netlist.v
+write_json output/mod10_counter_netlist.json

@@ -1,0 +1,12 @@
+TOP CELL: mod10_counter
+DATABASE UNIT: 0.0009999999999999998
+TOP-LEVEL TEXT LABELS:
+Layer 33: VDD
+Layer 33: VSS
+Layer 35: clk
+Layer 35: count[0]
+Layer 35: count[1]
+Layer 35: count[2]
+Layer 35: count[3]
+Layer 35: rst
+Total top-level text labels: 8

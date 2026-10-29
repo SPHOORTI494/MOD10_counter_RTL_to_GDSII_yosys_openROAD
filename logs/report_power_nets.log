@@ -1,0 +1,26 @@
+OpenROAD unknown 
+Features included (+) or not (-): -GPU +GUI -Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+
+===== VDD NET =====
+Net VDD
+ Pin capacitance: 0.00
+ Wire capacitance: 0.00
+ Total capacitance: 0.00
+ Number of drivers: 0
+ Number of loads: 0
+ Number of pins: 0
+
+
+===== VSS NET =====
+Net VSS
+ Pin capacitance: 0.00
+ Wire capacitance: 0.00
+ Total capacitance: 0.00
+ Number of drivers: 0
+ Number of loads: 0
+ Number of pins: 0
+
+
+===== POWER-NET REPORT COMPLETED =====

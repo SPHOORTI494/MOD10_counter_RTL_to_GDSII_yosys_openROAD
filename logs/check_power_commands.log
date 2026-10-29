@@ -1,0 +1,12 @@
+OpenROAD unknown 
+Features included (+) or not (-): -GPU +GUI -Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+check_power_grid -net power_net [-error_file error_file] [-floorplanning]
+   [-dont_require_terminals] 
+
+analyze_power_grid -net net_name [-corner corner] [-error_file error_file]
+   [-voltage_file voltage_file] [-enable_em] [-em_outfile em_file]
+   [-vsrc voltage_source_file] [-source_type FULL|BUMPS|STRAPS] [-allow_reuse] 
+
+global_connect [-force] [-verbose]  

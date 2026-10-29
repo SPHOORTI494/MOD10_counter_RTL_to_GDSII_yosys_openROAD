@@ -1,0 +1,134 @@
+OpenROAD unknown 
+Features included (+) or not (-): -GPU +GUI -Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+
+===== PARASITIC EXTRACTION =====
+extract_parasitics [-ext_model_file filename] [-corner cornerIndex]
+   [-corner_cnt count] [-max_res ohms] [-coupling_threshold fF]
+   [-debug_net_id id] [-dbg dbg_num ] [-lef_res] [-lef_rc] [-cc_model track]
+   [-context_depth depth] [-no_merge_via_res] [-skip_over_cell ] [-version] 
+
+
+===== SPEF OUTPUT =====
+write_spef [-net_id net_id] [-nets nets] [-coordinates] filename  
+
+===== SPEF INPUT =====
+read_spef [-name spef_name] [-corner corner] [-min] [-max] [-path path]
+   [-pin_cap_included] [-keep_capacitive_coupling]
+   [-coupling_reduction_factor factor] [-reduce] filename 
+  The read_spef command reads a file of net parasitics in SPEF format. Use the
+  -report_parasitic_annotation command to check for nets that are not
+  annotated.
+
+  Files compressed with gzip are automatically uncompressed.
+
+  Separate min/max parasitics can be annotated for each scene.
+
+  read_spef -name min spef1
+  read_spef -name max spef2
+  define_scene scene1 -mode mode1 -spef_min min -spef_max max
+
+  Coupling capacitors are multiplied by the -coupling_reduction_factor when a
+  parasitic network is reduced.
+
+  The following SPEF constructs are ignored.
+
+  DESIGN_FLOW (all values are ignored)
+  S slews
+  D driving cell
+  I pin capacitances (library cell capacitances are used instead)
+  Q r_net load poles
+  K r_net load residues
+
+  If the SPEF file contains triplet values the first value is used.
+
+  Parasitic networks (DSPEF) can be annotated on hierarchical blocks using the
+  -path argument to specify the instance path to the block. Parasitic networks
+  in the higher level netlist are stitched together at the hierarchical pins of
+  the blocks.
+  -name  The name of the SPEF parasitics to use for defining scenes. The
+    default is the base name of filename.
+  -corner  Process corner to annotate. Deprecated; use -name and define_scene.
+  -min  Apply to minimum (hold) analysis.
+  -max  Apply to maximum (setup) analysis.
+  -path  Hierarchical block instance path to annotate with parasitics.
+  -pin_cap_included  SPEF pin capacitances are included (library pin
+    capacitances are not added).
+  -keep_capacitive_coupling  Keep coupling capacitors in parasitic networks
+    rather than converting them to grounded capacitors.
+  -coupling_reduction_factor  factor: Factor to multiply coupling capacitance
+    by when reducing parasitic networks. The default value is 1.0.
+  -reduce  Reduce parasitic networks to the form used by the current delay
+    calculator.
+
+===== TIMING REPORT =====
+report_checks [-from from_list|-rise_from from_list|-fall_from from_list]
+   [-through through_list|-rise_through through_list|-fall_through through_list]
+   [-to to_list|-rise_to to_list|-fall_to to_list] [-unconstrained]
+   [-path_delay min|min_rise|min_fall|max|max_rise|max_fall|min_max]
+   [-scenes scenes] [-group_path_count path_count]
+   [-endpoint_path_count path_count] [-unique_paths_to_endpoint]
+   [-unique_edges_to_endpoint] [-slack_max slack_max] [-slack_min slack_min]
+   [-sort_by_slack] [-path_group group_name]
+   [-format full|full_clock|full_clock_expanded|short|end|slack_only|summary|json]
+   [-fields capacitance|slew|fanout|input_pin|net|src_attr|variation]
+   [-digits digits] [-no_line_splits] [> filename] [>> filename] 
+  The report_checks command reports paths in the design. Paths are reported in
+  groups by capture clock, unclocked path delays, gated clocks and
+  unconstrained.
+
+  See set_false_path for a description of allowed from_list, through_list and
+  to_list objects.
+  -from  Report paths from a list of clocks, instances, ports, register clock
+    pins, or latch data pins.
+  -rise_from  Report paths from the rising edge of clocks, instances, ports,
+    register clock pins, or latch data pins.
+  -fall_from  Report paths from the falling edge of clocks, instances, ports,
+    register clock pins, or latch data pins.
+  -through  Report paths through a list of instances, pins or nets.
+  -rise_through  Report rising paths through a list of instances, pins or nets.
+  -fall_through  Report falling paths through a list of instances, pins or
+    nets.
+  -to  Report paths to a list of clocks, instances, ports or pins.
+  -rise_to  Report rising paths to a list of clocks, instances, ports or pins.
+  -fall_to  Report falling paths to a list of clocks, instances, ports or pins.
+  -unconstrained  Report unconstrained paths also. The unconstrained path group
+    is not reported without this option.
+  -path_delay  min: Report min path (hold) checks. min_rise: Report min path
+    (hold) checks for rising endpoints. min_fall: Report min path (hold) checks
+    for falling endpoints. max: Report max path (setup) checks. max_rise:
+    Report max path (setup) checks for rising endpoints. max_fall: Report max
+    path (setup) checks for falling endpoints. min_max: Report min and max path
+    (setup and hold) checks.
+  -scenes  Report paths for these scenes. The default is all scenes.
+  -group_path_count  path_count: The number of paths to report in each path
+    group. The default is 1.
+  -endpoint_path_count  endpoint_path_count: The number of paths to report for
+    each endpoint. The default is 1.
+  -unique_paths_to_endpoint  When multiple paths to an endpoint are specified
+    with -endpoint_path_count, many of the paths may differ only in the
+    rise/fall edges of the pins in the paths. With this option only the worst
+    path through the set of pins is reported.
+  -unique_edges_to_endpoint  When multiple paths to an endpoint are specified
+    with -endpoint_path_count, conditional timing arcs result in paths that go
+    through the same pins and rise/fall edges. With this option only the worst
+    path through the set of pins and rise/fall edges is reported.
+  -slack_max  Only report paths with less slack than max_slack.
+  -slack_min  Only report paths with more slack than min_slack.
+  -sort_by_slack  Sort paths by slack rather than slack grouped by path group.
+  -path_group  List of path groups to report. The default is to report all path
+    groups.
+  -format  end: Report path ends in one line with delay, required time and
+    slack. full: Report path start and end points and the path. This is the
+    default path type. full_clock: Report path start and end points, the path,
+    and the source and target clock paths. full_clock_expanded: Report path
+    start and end points, the path, and the source and target clock paths. If
+    the clock is generated and propagated, the path from the clock source pin
+    is also reported. short: Report only path start and end points. summary:
+    Report only path ends with delay. json: Report in json format. -fields is
+    ignored.
+  -fields  List of
+    capacitance|slew|input_pins|hierarchical_pins|net|fanout|src_attr|variation
+  -digits  Number of digits to print after the decimal point.
+  -no_line_splits  Do not split long lines into multiple lines.

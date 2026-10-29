@@ -1,0 +1,28 @@
+OpenROAD unknown 
+Features included (+) or not (-): -GPU +GUI -Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+===== DATABASE AND LEF COMMANDS =====
+read_db [-hier] filename 
+read_lef [-tech] [-library] [-tech_name name] filename 
+write_db [-compression level] filename 
+write_def [-version version] filename 
+
+===== POWER GRID CHECK COMMANDS =====
+check_power_grid -net power_net [-error_file error_file] [-floorplanning]
+   [-dont_require_terminals] 
+
+[WARNING STA-0160] no commands match 'check_power_connectivity'.
+
+===== ROUTING AND PARASITIC COMMANDS =====
+global_route [-guide_file out_file] [-congestion_iterations iterations]
+   [-congestion_report_file file_name] [-congestion_report_iter_step steps]
+   [-grid_origin origin] [-critical_nets_percentage percent]
+   [-res_aware_nets_percentage percent] [-skip_large_fanout_nets fanout]
+   [-allow_congestion] [-snapshot_batched_width width] [-verbose]
+   [-start_incremental] [-end_incremental] [-use_cugr] [-resistance_aware]
+   [-infinite_cap] 
+
+estimate_parasitics -placement|-global_routing [-spef_file filename] 
+set_routing_layers [-signal min-max] [-clock min-max]   
+  -max  Apply to maximum (setup) analysis.

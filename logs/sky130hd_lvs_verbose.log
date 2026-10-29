@@ -1,0 +1,652 @@
+Scanning for db plugins: /home/sphoorti/.klayout/db_plugins
+Scanning for db plugins: /home/sphoorti/.klayout/x86_64-linux-gcc/db_plugins
+Scanning for db plugins: /usr/lib/klayout/db_plugins
+Loading plugin: /usr/lib/klayout/db_plugins/libcif.so
+Loading plugin: /usr/lib/klayout/db_plugins/libdxf.so
+Loading plugin: /usr/lib/klayout/db_plugins/libgds2.so
+Loading plugin: /usr/lib/klayout/db_plugins/liblefdef.so
+Loading plugin: /usr/lib/klayout/db_plugins/libmag.so
+Loading plugin: /usr/lib/klayout/db_plugins/libnet_tracer.so
+Loading plugin: /usr/lib/klayout/db_plugins/liboasis.so
+Loading plugin: /usr/lib/klayout/db_plugins/libpcb.so
+Scanning for db plugins: /usr/lib/klayout/x86_64-linux-gcc/db_plugins
+Scanning for db plugins: /usr/lib/klayout/db_plugins
+Scanning for lay plugins: /home/sphoorti/.klayout/lay_plugins
+Scanning for lay plugins: /home/sphoorti/.klayout/x86_64-linux-gcc/lay_plugins
+Scanning for lay plugins: /usr/lib/klayout/lay_plugins
+Loaded plugin '/usr/lib/klayout/lay_plugins/libbool_ui.so'
+Loaded plugin '/usr/lib/klayout/lay_plugins/libcif_ui.so'
+Loaded plugin '/usr/lib/klayout/lay_plugins/libcommon_ui.so'
+Loaded plugin '/usr/lib/klayout/lay_plugins/libd25_ui.so'
+Loaded plugin '/usr/lib/klayout/lay_plugins/libdiff_ui.so'
+Loaded plugin '/usr/lib/klayout/lay_plugins/libdxf_ui.so'
+Loaded plugin '/usr/lib/klayout/lay_plugins/libgds2_ui.so'
+Loaded plugin '/usr/lib/klayout/lay_plugins/libimport_ui.so'
+Loaded plugin '/usr/lib/klayout/lay_plugins/liblefdef_ui.so'
+Loaded plugin '/usr/lib/klayout/lay_plugins/libmag_ui.so'
+Loaded plugin '/usr/lib/klayout/lay_plugins/libnet_tracer_ui.so'
+Loaded plugin '/usr/lib/klayout/lay_plugins/liboasis_ui.so'
+Loaded plugin '/usr/lib/klayout/lay_plugins/libpcb_ui.so'
+Loaded plugin '/usr/lib/klayout/lay_plugins/libxor_ui.so'
+Scanning for lay plugins: /usr/lib/klayout/x86_64-linux-gcc/lay_plugins
+Scanning for lay plugins: /usr/lib/klayout/lay_plugins
+Registering class as Ruby module: QSurface
+Registering class as Ruby module: QPaintDevice_Native
+Registering class as Ruby module: QLayoutItem_Native
+Registering class as Ruby module: QAccessibleActionInterface_Native
+Registering class as Ruby module: QMediaBindableInterface_Native
+Registering class as Ruby module: QMediaServiceProviderFactoryInterface_Native
+Registering class as Ruby module: QAudioSystemFactoryInterface_Native
+Registering class as Ruby module: QXmlErrorHandler_Native
+Registering class as Ruby module: QXmlDTDHandler_Native
+Registering class as Ruby module: QXmlEntityResolver
+Registering class as Ruby module: QXmlLexicalHandler_Native
+Registering class as Ruby module: QXmlDeclHandler_Native
+Registering class as Ruby module: QPagedPaintDevice_Native
+Registering class as Ruby module: QGraphicsItem_Native
+Registering class as Ruby module: QGraphicsLayoutItem_Native
+Scanning for db plugins: /usr/lib/klayout/db_plugins
+Loading plugin: /usr/lib/klayout/db_plugins/libcif.so
+Loading plugin: /usr/lib/klayout/db_plugins/libdxf.so
+Loading plugin: /usr/lib/klayout/db_plugins/libgds2.so
+Loading plugin: /usr/lib/klayout/db_plugins/liblefdef.so
+Loading plugin: /usr/lib/klayout/db_plugins/libmag.so
+Loading plugin: /usr/lib/klayout/db_plugins/libnet_tracer.so
+Loading plugin: /usr/lib/klayout/db_plugins/liboasis.so
+Loading plugin: /usr/lib/klayout/db_plugins/libpcb.so
+Warning: Class Region: no Python mapping for method (reserved word) and
+Warning: Class Region: no Python mapping for method (reserved word) not
+Warning: Class Region: no Python mapping for method (reserved word) or
+Warning: Class Region: no Python mapping for method (reserved word) in
+Warning: Class Region: no Python mapping for method (reserved word) break
+Warning: Class SimplePolygon: no Python mapping for method (reserved word) break
+Warning: Class DSimplePolygon: no Python mapping for method (reserved word) break
+Warning: Class Polygon: no Python mapping for method (reserved word) break
+Warning: Class DPolygon: no Python mapping for method (reserved word) break
+Warning: Class Edges: no Python mapping for method (reserved word) and
+Warning: Class Edges: no Python mapping for method (reserved word) and
+Warning: Class Edges: no Python mapping for method (reserved word) not
+Warning: Class Edges: no Python mapping for method (reserved word) not
+Warning: Class Edges: no Python mapping for method (reserved word) or
+Warning: Class Edges: no Python mapping for method (reserved word) in
+Warning: Class QRandomGenerator: no Python mapping for method (reserved word) global
+Warning: Class QJsonValueRefPtr: no Python mapping for method ->
+Warning: Class QJsonValuePtr: no Python mapping for method ->
+Warning: Class QJsonObject_Const_iterator: no Python mapping for method ->
+Warning: Class QJsonObject_Iterator: no Python mapping for method ->
+Warning: Class QJsonArray_Const_iterator: no Python mapping for method ->
+Warning: Class QJsonArray_Iterator: no Python mapping for method ->
+Warning: Class QCoreApplication_Native: no Python mapping for method (reserved word) exec
+Warning: Class QGuiApplication_Native: no Python mapping for method (reserved word) exec
+Warning: Class QDrag_Native: no Python mapping for method (reserved word) exec
+Warning: Class QDrag_Native: no Python mapping for method (reserved word) exec
+Warning: Class QApplication_Native: no Python mapping for method (reserved word) exec
+Warning: Class QPageSetupDialog_Native: no Python mapping for method (reserved word) exec
+Warning: Class QSqlResult: no Python mapping for method (reserved word) exec
+Warning: Class QSqlDatabase: no Python mapping for method (reserved word) exec
+Warning: Class Application: no Python mapping for method (reserved word) exec
+Warning: Class QThread: no Python mapping for method (reserved word) exec
+Warning: Class QRandomGenerator64: no Python mapping for method (reserved word) global
+Warning: Class QEventLoop_Native: no Python mapping for method (reserved word) exec
+Warning: Class QTextDocument_Native: no Python mapping for method (reserved word) print
+Warning: Class QWidget_Native: no Python mapping for method (reserved word) raise
+Warning: Class QMenu_Native: no Python mapping for method (reserved word) exec
+Warning: Class QMenu_Native: no Python mapping for method (reserved word) exec
+Warning: Class QMenu_Native: no Python mapping for method (reserved word) exec
+Warning: Class QLineEdit_Native: no Python mapping for method (reserved word) del
+Warning: Class QDialog_Native: no Python mapping for method (reserved word) exec
+Warning: Class QDialog: no Python mapping for method (reserved word) exec
+Warning: Class QColorDialog: no Python mapping for method (reserved word) exec
+Warning: Class BrowserDialog: no Python mapping for method (reserved word) exec
+Warning: Class QPrintPreviewWidget_Native: no Python mapping for method (reserved word) print
+Warning: Class QPrintPreviewDialog: no Python mapping for method (reserved word) exec
+Warning: Class QAbstractPrintDialog_Native: no Python mapping for method (reserved word) exec
+Warning: Class QAbstractPrintDialog: no Python mapping for method (reserved word) exec
+Warning: Class QSqlQuery: no Python mapping for method (reserved word) exec
+Warning: Class QSqlQuery: no Python mapping for method (reserved word) exec
+Warning: Class QWindow_Native: no Python mapping for method (reserved word) raise
+Warning: Class QWizard: no Python mapping for method (reserved word) exec
+Warning: Class QTextEdit_Native: no Python mapping for method (reserved word) print
+Warning: Class QProgressDialog: no Python mapping for method (reserved word) exec
+Warning: Class QPlainTextEdit_Native: no Python mapping for method (reserved word) print
+Warning: Class QMessageBox: no Python mapping for method (reserved word) exec
+Warning: Class QInputDialog: no Python mapping for method (reserved word) exec
+Warning: Class QFontDialog: no Python mapping for method (reserved word) exec
+Warning: Class QFileDialog: no Python mapping for method (reserved word) exec
+Warning: Class QErrorMessage: no Python mapping for method (reserved word) exec
+Warning: Class QPrintDialog_Native: no Python mapping for method (reserved word) exec
+Warning: Class QPrintDialog: no Python mapping for method (reserved word) exec
+Scanning for db plugins: /usr/lib/klayout/db_plugins
+Loading plugin: /usr/lib/klayout/db_plugins/libcif.so
+Loading plugin: /usr/lib/klayout/db_plugins/libdxf.so
+Loading plugin: /usr/lib/klayout/db_plugins/libgds2.so
+Loading plugin: /usr/lib/klayout/db_plugins/liblefdef.so
+Loading plugin: /usr/lib/klayout/db_plugins/libmag.so
+Loading plugin: /usr/lib/klayout/db_plugins/libnet_tracer.so
+Loading plugin: /usr/lib/klayout/db_plugins/liboasis.so
+Loading plugin: /usr/lib/klayout/db_plugins/libpcb.so
+Scanning /home/sphoorti/.klayout/salt for packages
+Scanning /usr/lib/klayout/salt for packages
+Scanning macro path :/built-in-macros (readonly=true)
+Loading macro from :/built-in-macros/_d25_engine.rb
+Loading macro from :/built-in-macros/_drc_complex_ops.rb
+Loading macro from :/built-in-macros/_drc_cop_integration.rb
+Loading macro from :/built-in-macros/_drc_engine.rb
+Loading macro from :/built-in-macros/_drc_layer.rb
+Loading macro from :/built-in-macros/_drc_netter.rb
+Loading macro from :/built-in-macros/_drc_patch.rb
+Loading macro from :/built-in-macros/_drc_source.rb
+Loading macro from :/built-in-macros/_drc_tags.rb
+Loading macro from :/built-in-macros/_lvs_engine.rb
+Loading macro from :/built-in-macros/_lvs_netter.rb
+Loading macro from :/built-in-macros/d25_install.lym
+Loading macro from :/built-in-macros/d25_interpreters.lym
+Loading macro from :/built-in-macros/drc_install.lym
+Loading macro from :/built-in-macros/drc_interpreters.lym
+Loading macro from :/built-in-macros/lvs_install.lym
+Loading macro from :/built-in-macros/lvs_interpreters.lym
+Loading macro from :/built-in-macros/pcell_declaration_helper.lym
+Loading macro from :/built-in-macros/qobject_helper.lym
+Scanning macro path :/built-in-pymacros (readonly=true)
+Loading macro from :/built-in-pymacros/pcell_declaration_helper.lym
+Loading macro from :/built-in-pymacros/qt_helper.lym
+Running macro :/built-in-macros/_drc_complex_ops.rb
+Running macro :/built-in-macros/_drc_cop_integration.rb
+Running macro :/built-in-macros/_drc_engine.rb
+Running macro :/built-in-macros/_drc_layer.rb
+Running macro :/built-in-macros/_drc_netter.rb
+Running macro :/built-in-macros/_drc_patch.rb
+Running macro :/built-in-macros/_drc_source.rb
+Running macro :/built-in-macros/_drc_tags.rb
+Running macro :/built-in-macros/_lvs_engine.rb
+Running macro :/built-in-macros/_lvs_netter.rb
+Running macro :/built-in-macros/d25_interpreters.lym
+Loading macro from :/d25-templates/d25.lym
+Running macro :/built-in-macros/drc_interpreters.lym
+Loading macro from :/drc-templates/drc.lym
+Running macro :/built-in-macros/lvs_interpreters.lym
+Loading macro from :/lvs-templates/lvs.lym
+Running macro :/built-in-macros/pcell_declaration_helper.lym
+Running macro :/built-in-macros/qobject_helper.lym
+Running macro :/built-in-pymacros/pcell_declaration_helper.lym
+Running macro :/built-in-pymacros/qt_helper.lym
+Running macro :/built-in-macros/_d25_engine.rb
+Scanning macro path :/built-in-macros (readonly=true)
+Loading macro from :/built-in-macros/_d25_engine.rb
+Loading macro from :/built-in-macros/_drc_complex_ops.rb
+Loading macro from :/built-in-macros/_drc_cop_integration.rb
+Loading macro from :/built-in-macros/_drc_engine.rb
+Loading macro from :/built-in-macros/_drc_layer.rb
+Loading macro from :/built-in-macros/_drc_netter.rb
+Loading macro from :/built-in-macros/_drc_patch.rb
+Loading macro from :/built-in-macros/_drc_source.rb
+Loading macro from :/built-in-macros/_drc_tags.rb
+Loading macro from :/built-in-macros/_lvs_engine.rb
+Loading macro from :/built-in-macros/_lvs_netter.rb
+Loading macro from :/built-in-macros/d25_install.lym
+Loading macro from :/built-in-macros/d25_interpreters.lym
+Loading macro from :/built-in-macros/drc_install.lym
+Loading macro from :/built-in-macros/drc_interpreters.lym
+Loading macro from :/built-in-macros/lvs_install.lym
+Loading macro from :/built-in-macros/lvs_interpreters.lym
+Loading macro from :/built-in-macros/pcell_declaration_helper.lym
+Loading macro from :/built-in-macros/qobject_helper.lym
+Scanning macro path :/built-in-pymacros (readonly=true)
+Loading macro from :/built-in-pymacros/pcell_declaration_helper.lym
+Loading macro from :/built-in-pymacros/qt_helper.lym
+Running macro :/built-in-macros/_drc_complex_ops.rb
+Running macro :/built-in-macros/_drc_cop_integration.rb
+Running macro :/built-in-macros/_drc_engine.rb
+Running macro :/built-in-macros/_drc_layer.rb
+Running macro :/built-in-macros/_drc_netter.rb
+Running macro :/built-in-macros/_drc_patch.rb
+Running macro :/built-in-macros/_drc_source.rb
+Running macro :/built-in-macros/_drc_tags.rb
+Running macro :/built-in-macros/_lvs_engine.rb
+Running macro :/built-in-macros/_lvs_netter.rb
+Running macro :/built-in-macros/d25_interpreters.lym
+Loading macro from :/d25-templates/d25.lym
+Running macro :/built-in-macros/drc_interpreters.lym
+Loading macro from :/drc-templates/drc.lym
+Running macro :/built-in-macros/lvs_interpreters.lym
+Loading macro from :/lvs-templates/lvs.lym
+Running macro :/built-in-macros/pcell_declaration_helper.lym
+Running macro :/built-in-macros/qobject_helper.lym
+Running macro :/built-in-pymacros/pcell_declaration_helper.lym
+Running macro :/built-in-pymacros/qt_helper.lym
+Running macro :/built-in-macros/_d25_engine.rb
+Scanning macro path :/built-in-macros (readonly=true)
+Scanning macro path :/built-in-pymacros (readonly=true)
+Initializing plugins:
+  MainWindowPlugin [-100]
+  LayoutViewPlugin [-10]
+  LayerControlPanelPlugin [-9]
+  HierarchyControlPanelPlugin [-8]
+  BookmarksViewPlugin [-7]
+  LibraryViewPlugin [-7]
+  NavigatorPlugin [-1]
+  SaltController [100]
+  TechnologyController [110]
+  MacroController [120]
+  LibraryController [150]
+  FontController [160]
+  MainPlugin [1000]
+  db::GerberImportPlugin [1200]
+  lay::StreamImportPlugin [1300]
+  db::LEFDEFImportPlugin [1400]
+  MacroEditor [1500]
+  LayoutViewBasicConfig [1990]
+  LayoutViewConfig [2000]
+  GridNetPlugin [2010]
+  lay::XORPlugin [3000]
+  ant::Plugin [3000]
+  lay::DiffPlugin [3001]
+  lay::BooleanOperationsPlugin [3010]
+  lay::D25Plugin [3100]
+  img::Plugin [4000]
+  edt::MainService [4000]
+  edt::Service(Polygons) [4010]
+  edt::Service(Boxes) [4011]
+  edt::Service(Texts) [4012]
+  edt::Service(Paths) [4013]
+  edt::Service(Points) [4014]
+  edt::Service(CellInstances) [4020]
+  edt::PartialService [4030]
+  edt::MoveTrackerService [4100]
+  OASISReader [10000]
+  OASISWriter [10000]
+  MAGReader [10000]
+  MAGWriter [10000]
+  GDS2Reader [10000]
+  GDS2Writer [10000]
+  DXFReader [10000]
+  DXFWriter [10000]
+  CommonReader [10000]
+  CIFReader [10000]
+  CIFWriter [10000]
+  BrowseShapesPlugin [10000]
+  LEFDEFReader [10001]
+  GDS2TextWriter [10001]
+  BrowseInstancesPlugin [11000]
+  MarkerBrowserPlugin [12000]
+  NetlistBrowserPlugin [12100]
+  NetTracerPlugin [13000]
+  ClipDialogPlugin [20000]
+  FillDialogPlugin [20000]
+  SearchReplacePlugin [20000]
+KLayout path:
+  /home/sphoorti/.klayout
+  /usr/lib/klayout
+Config file to write: 
+Config files to read:
+Variable definition: in_gds='/opt/asic-learning/countermod10/physical/results/final.gds'
+Variable definition: top_cell='mod10_counter'
+Variable definition: report_file='/opt/asic-learning/countermod10/physical/reports/sky130hd_lvs.lyrdb'
+Variable definition: cdl_file='/opt/asic-learning/countermod10/physical/results/reference.cdl'
+Variable definition: target_netlist='/opt/asic-learning/countermod10/physical/results/extracted.cir'
+Running macro :/built-in-macros/d25_install.lym
+Running macro :/built-in-macros/drc_install.lym
+Running macro :/built-in-macros/lvs_install.lym
+Resetting annotation templates
+Run macro '/opt/asic-learning/countermod10/physical/sky130hd_lvs_compat.lylvs'
+Loading macro from /opt/asic-learning/countermod10/physical/sky130hd_lvs_compat.lylvs
+Running macro /opt/asic-learning/countermod10/physical/sky130hd_lvs_compat.lylvs
+Running /opt/asic-learning/countermod10/physical/sky130hd_lvs_compat.lylvs
+Reading /opt/asic-learning/countermod10/physical/results/final.gds ..
+Reading netlist: /opt/asic-learning/countermod10/physical/results/reference.cdl ..
+"polygons" in: sky130hd_lvs_compat.lylvs:51
+    Polygons (raw): 1 (flat)  1 (hierarchical)
+    Elapsed: 0.010s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:52
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:53
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:54
+    Polygons (raw): 36 (flat)  11 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"input" in: sky130hd_lvs_compat.lylvs:55
+    Polygons (raw): 20 (flat)  10 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:56
+    Polygons (raw): 20 (flat)  10 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"input" in: sky130hd_lvs_compat.lylvs:57
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"input" in: sky130hd_lvs_compat.lylvs:58
+    Polygons (raw): 20 (flat)  10 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:59
+    Polygons (raw): 68 (flat)  29 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:60
+    Polygons (raw): 32 (flat)  2 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:61
+    Polygons (raw): 52 (flat)  12 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:62
+    Polygons (raw): 52 (flat)  12 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:63
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:64
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:65
+    Polygons (raw): 36 (flat)  11 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:66
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:67
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:68
+    Polygons (raw): 36 (flat)  11 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:69
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:70
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:71
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:72
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:73
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:74
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:75
+    Polygons (raw): 133 (flat)  52 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"input" in: sky130hd_lvs_compat.lylvs:76
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:77
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:78
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:79
+    Polygons (raw): 467 (flat)  193 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:80
+    Polygons (raw): 36 (flat)  14 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:81
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:82
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:83
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:84
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:85
+    Polygons (raw): 393 (flat)  120 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"input" in: sky130hd_lvs_compat.lylvs:86
+    Polygons (raw): 133 (flat)  63 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:87
+    Polygons (raw): 136 (flat)  66 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:88
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:89
+    Polygons (raw): 427 (flat)  139 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:90
+    Polygons (raw): 310 (flat)  106 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"input" in: sky130hd_lvs_compat.lylvs:91
+    Polygons (raw): 72 (flat)  22 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:92
+    Polygons (raw): 72 (flat)  22 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:93
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:94
+    Polygons (raw): 134 (flat)  6 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:95
+    Polygons (raw): 152 (flat)  59 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"input" in: sky130hd_lvs_compat.lylvs:96
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:97
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.010s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:98
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:99
+    Polygons (raw): 68 (flat)  5 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:100
+    Polygons (raw): 62 (flat)  27 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"input" in: sky130hd_lvs_compat.lylvs:101
+    Polygons (raw): 6 (flat)  6 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:102
+    Polygons (raw): 6 (flat)  6 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:103
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:104
+    Polygons (raw): 60 (flat)  4 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:105
+    Polygons (raw): 19 (flat)  4 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"input" in: sky130hd_lvs_compat.lylvs:106
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:107
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:108
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:109
+    Polygons (raw): 2 (flat)  1 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:110
+    Polygons (raw): 4 (flat)  3 (hierarchical)
+    Elapsed: 0.000s  Memory: 964.00M
+"input" in: sky130hd_lvs_compat.lylvs:111
+    Polygons (raw): 2 (flat)  2 (hierarchical)
+    Elapsed: 0.000s  Memory: 965.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:112
+    Polygons (raw): 2 (flat)  2 (hierarchical)
+    Elapsed: 0.000s  Memory: 965.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:113
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 965.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:114
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 965.00M
+"input" in: sky130hd_lvs_compat.lylvs:115
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 965.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:116
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 965.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:117
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 965.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:118
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 965.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:119
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 965.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:120
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 965.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:121
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 965.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:122
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 965.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:123
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 966.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:124
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 966.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:125
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 966.00M
+"polygons" in: sky130hd_lvs_compat.lylvs:128
+    Polygons (raw): 20 (flat)  10 (hierarchical)
+    Elapsed: 0.000s  Memory: 966.00M
+"&" in: sky130hd_lvs_compat.lylvs:132
+    Polygons (raw): 33 (flat)  14 (hierarchical)
+    Elapsed: 0.000s  Memory: 1526.00M
+"&" in: sky130hd_lvs_compat.lylvs:132
+    Polygons (raw): 33 (flat)  14 (hierarchical)
+    Elapsed: 0.000s  Memory: 1534.00M
+"&" in: sky130hd_lvs_compat.lylvs:133
+    Polygons (raw): 16 (flat)  1 (hierarchical)
+    Elapsed: 0.010s  Memory: 1534.00M
+"&" in: sky130hd_lvs_compat.lylvs:133
+    Polygons (raw): 16 (flat)  1 (hierarchical)
+    Elapsed: 0.000s  Memory: 1518.00M
+"&" in: sky130hd_lvs_compat.lylvs:134
+    Polygons (raw): 104 (flat)  45 (hierarchical)
+    Elapsed: 0.000s  Memory: 1526.00M
+"-" in: sky130hd_lvs_compat.lylvs:135
+    Polygons (raw): 137 (flat)  59 (hierarchical)
+    Elapsed: 0.000s  Memory: 1510.00M
+"-" in: sky130hd_lvs_compat.lylvs:136
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 1510.00M
+"-" in: sky130hd_lvs_compat.lylvs:136
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 1510.00M
+"-" in: sky130hd_lvs_compat.lylvs:136
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 1511.00M
+"-" in: sky130hd_lvs_compat.lylvs:137
+    Polygons (raw): 36 (flat)  11 (hierarchical)
+    Elapsed: 0.000s  Memory: 1511.00M
+"-" in: sky130hd_lvs_compat.lylvs:137
+    Polygons (raw): 36 (flat)  11 (hierarchical)
+    Elapsed: 0.000s  Memory: 1511.00M
+"&" in: sky130hd_lvs_compat.lylvs:137
+    Polygons (raw): 104 (flat)  45 (hierarchical)
+    Elapsed: 0.000s  Memory: 1535.00M
+"-" in: sky130hd_lvs_compat.lylvs:138
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.010s  Memory: 1527.00M
+"-" in: sky130hd_lvs_compat.lylvs:138
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 1511.00M
+"&" in: sky130hd_lvs_compat.lylvs:138
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 1511.00M
+"-" in: sky130hd_lvs_compat.lylvs:140
+    Polygons (raw): 31 (flat)  14 (hierarchical)
+    Elapsed: 0.000s  Memory: 1543.00M
+"&" in: sky130hd_lvs_compat.lylvs:140
+    Polygons (raw): 31 (flat)  14 (hierarchical)
+    Elapsed: 0.010s  Memory: 1535.00M
+"-" in: sky130hd_lvs_compat.lylvs:141
+    Polygons (raw): 16 (flat)  1 (hierarchical)
+    Elapsed: 0.000s  Memory: 1535.00M
+"&" in: sky130hd_lvs_compat.lylvs:141
+    Polygons (raw): 16 (flat)  1 (hierarchical)
+    Elapsed: 0.000s  Memory: 1543.00M
+"&" in: sky130hd_lvs_compat.lylvs:142
+    Polygons (raw): 99 (flat)  44 (hierarchical)
+    Elapsed: 0.000s  Memory: 1544.00M
+"-" in: sky130hd_lvs_compat.lylvs:143
+    Polygons (raw): 130 (flat)  58 (hierarchical)
+    Elapsed: 0.000s  Memory: 1512.00M
+"-" in: sky130hd_lvs_compat.lylvs:144
+    Polygons (raw): 99 (flat)  44 (hierarchical)
+    Elapsed: 0.000s  Memory: 1512.00M
+"-" in: sky130hd_lvs_compat.lylvs:144
+    Polygons (raw): 99 (flat)  44 (hierarchical)
+    Elapsed: 0.000s  Memory: 1512.00M
+"-" in: sky130hd_lvs_compat.lylvs:144
+    Polygons (raw): 99 (flat)  44 (hierarchical)
+    Elapsed: 0.000s  Memory: 1512.00M
+"-" in: sky130hd_lvs_compat.lylvs:145
+    Polygons (raw): 99 (flat)  44 (hierarchical)
+    Elapsed: 0.000s  Memory: 1512.00M
+"-" in: sky130hd_lvs_compat.lylvs:145
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 1512.00M
+"&" in: sky130hd_lvs_compat.lylvs:145
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.010s  Memory: 1512.00M
+"-" in: sky130hd_lvs_compat.lylvs:146
+    Polygons (raw): 99 (flat)  44 (hierarchical)
+    Elapsed: 0.000s  Memory: 1512.00M
+"-" in: sky130hd_lvs_compat.lylvs:146
+    Polygons (raw): 99 (flat)  44 (hierarchical)
+    Elapsed: 0.000s  Memory: 1512.00M
+"&" in: sky130hd_lvs_compat.lylvs:146
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 1512.00M
+"-" in: sky130hd_lvs_compat.lylvs:147
+    Polygons (raw): 99 (flat)  44 (hierarchical)
+    Elapsed: 0.000s  Memory: 1513.00M
+"&" in: sky130hd_lvs_compat.lylvs:147
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 1513.00M
+"&" in: sky130hd_lvs_compat.lylvs:147
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 1513.00M
+"extract_devices" in: sky130hd_lvs_compat.lylvs:153
+    Elapsed: 0.010s  Memory: 1513.00M
+"extract_devices" in: sky130hd_lvs_compat.lylvs:154
+    Elapsed: 0.000s  Memory: 1513.00M
+"extract_devices" in: sky130hd_lvs_compat.lylvs:155
+    Elapsed: 0.010s  Memory: 1513.00M
+"extract_devices" in: sky130hd_lvs_compat.lylvs:158
+    Elapsed: 0.000s  Memory: 1513.00M
+"extract_devices" in: sky130hd_lvs_compat.lylvs:159
+    Elapsed: 0.000s  Memory: 1514.00M
+"extract_devices" in: sky130hd_lvs_compat.lylvs:160
+    Elapsed: 0.010s  Memory: 1514.00M
+"extract_devices" in: sky130hd_lvs_compat.lylvs:161
+    Elapsed: 0.000s  Memory: 1514.00M
+"netlist" in: sky130hd_lvs_compat.lylvs:430
+Joining soft-connected net graphs ..
+Joined 144 soft-connected net clusters with 0 partial nets in total.
+    Elapsed: 0.020s  Memory: 1514.00M
+Flatten layout cell (no schematic): VIA_via5_6_1600_1600_1_1_1600_1600
+Flatten layout cell (no schematic): VIA_via4_5_1600_480_1_4_400_400
+Flatten layout cell (no schematic): VIA_via3_4_1600_480_1_4_400_400
+Flatten layout cell (no schematic): VIA_via2_3_1600_480_1_5_320_320
+Flatten layout cell (no schematic): VIA_L1M1_PR_MR
+Flatten layout cell (no schematic): VIA_M1M2_PR
+Flatten layout cell (no schematic): VIA_M2M3_PR
+Writing netlist: /opt/asic-learning/countermod10/physical/results/extracted.cir ..
+Writing LVS database: /opt/asic-learning/countermod10/physical/reports/sky130hd_lvs.lyrdb ..
+Total elapsed: 0.250s  Memory: 1515.00M
+ERROR : Netlists don't match

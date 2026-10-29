@@ -1,0 +1,15 @@
+OpenROAD unknown 
+Features included (+) or not (-): -GPU +GUI -Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0227] LEF file: /sky130hd/lef/sky130_fd_sc_hd.tlef, created 13 layers, 25 vias
+[INFO ODB-0227] LEF file: /sky130hd/lef/sky130_fd_sc_hd_merged.lef, created 441 library cells
+[WARNING IFP-0028] Core area lower left (2.000, 2.000) snapped to (2.300, 2.720).
+[INFO IFP-0001] Added 14 rows of 86 site unithd.
+[INFO IFP-0100] Die BBox:  (  0.000  0.000 ) ( 44.000 44.000 ) um
+[INFO IFP-0101] Core BBox: (  2.300  2.720 ) ( 41.860 40.800 ) um
+[INFO IFP-0102] Core area:                         1506.445 um^2
+[INFO IFP-0103] Total instances area:               173.917 um^2
+[INFO IFP-0104] Effective utilization:                0.115
+[INFO IFP-0105] Number of instances:                     17
+Larger PDN floorplan created.
